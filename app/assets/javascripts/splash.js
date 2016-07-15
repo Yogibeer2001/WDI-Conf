@@ -190,9 +190,9 @@ $(function(){
              scrollTop: $(id).offset().top},
              'slow');
       }
-
       $(".discover-button").click(function() {
-
+        // var welcome = new Audio("/sound/Welcome.wav");
+        //   welcome.play();
          goToByScroll(".conference");
       });
 

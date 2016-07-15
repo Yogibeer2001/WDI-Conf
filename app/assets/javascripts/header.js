@@ -50,9 +50,9 @@ $('a[href*="#"]:not([href="#"])').click(function () {
             if (heightSponsor > profileDiv && heightSponsor < bookingEnd || heightSponsor > footerStart){$("#sponsor").css('color', 'white')}
             else {$("#sponsor").css('color', '#282CC1')}
 
-            var heightFooter = 6 + $('#foot').offset().top;
-            if (heightFooter > profileDiv && heightFooter < bookingEnd || heightFooter > footerStart){$("#foot").css('color', 'white')}
-            else {$("#foot").css('color', '#282CC1')}
+            // var heightFooter = 6 + $('#foot').offset().top;
+            // if (heightFooter > profileDiv && heightFooter < bookingEnd || heightFooter > footerStart){$("#foot").css('color', 'white')}
+            // else {$("#foot").css('color', '#282CC1')}
     });
 
 
